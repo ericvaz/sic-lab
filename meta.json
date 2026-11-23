@@ -1,0 +1,351 @@
+{
+  "matched": 632,
+  "total": 725,
+  "ranges": {
+    "population": {
+      "min": 8004,
+      "max": 16787941,
+      "count": 633
+    },
+    "density": {
+      "min": 1,
+      "max": 49198,
+      "count": 633
+    },
+    "literacy_rate": {
+      "min": 28.77,
+      "max": 88.74,
+      "count": 725
+    },
+    "female_literacy_rate": {
+      "min": 24.25,
+      "max": 88.62,
+      "count": 725
+    },
+    "male_literacy_rate": {
+      "min": 33.35,
+      "max": 88.98,
+      "count": 725
+    },
+    "sex_ratio": {
+      "min": 533.6,
+      "max": 1184.4,
+      "count": 725
+    },
+    "pct_sc": {
+      "min": 0.0,
+      "max": 50.17,
+      "count": 725
+    },
+    "pct_st": {
+      "min": 0.0,
+      "max": 98.58,
+      "count": 725
+    },
+    "pct_hindu": {
+      "min": 1.01,
+      "max": 99.39,
+      "count": 725
+    },
+    "pct_muslim": {
+      "min": 0.23,
+      "max": 98.52,
+      "count": 725
+    },
+    "pct_christian": {
+      "min": 0.03,
+      "max": 97.59,
+      "count": 725
+    },
+    "pct_urban_hh": {
+      "min": 0.0,
+      "max": 100.0,
+      "count": 725
+    },
+    "pct_internet": {
+      "min": 0.15,
+      "max": 16.54,
+      "count": 725
+    },
+    "pct_electricity": {
+      "min": 1.53,
+      "max": 83.43,
+      "count": 725
+    },
+    "pct_lpg": {
+      "min": 0.55,
+      "max": 69.27,
+      "count": 725
+    },
+    "workforce_participation": {
+      "min": 25.83,
+      "max": 66.9,
+      "count": 725
+    },
+    "female_workforce": {
+      "min": 7.06,
+      "max": 64.04,
+      "count": 725
+    },
+    "high_income_share": {
+      "min": 0.0,
+      "max": 30.4,
+      "count": 725
+    },
+    "pct_car": {
+      "min": 0.37,
+      "max": 20.28,
+      "count": 725
+    },
+    "pct_tv": {
+      "min": 4.43,
+      "max": 80.33,
+      "count": 725
+    },
+    "pct_computer": {
+      "min": 1.4,
+      "max": 27.08,
+      "count": 725
+    },
+    "pct_phone": {
+      "min": 8.62,
+      "max": 77.4,
+      "count": 725
+    },
+    "pct_graduate": {
+      "min": 0.59,
+      "max": 22.3,
+      "count": 725
+    },
+    "pct_agri_workers": {
+      "min": 0.0,
+      "max": 89.99,
+      "count": 725
+    },
+    "pct_young": {
+      "min": 40.06,
+      "max": 73.81,
+      "count": 725
+    },
+    "pct_tapwater": {
+      "min": 0.9,
+      "max": 85.71,
+      "count": 725
+    },
+    "pct_latrine": {
+      "min": 4.37,
+      "max": 81.42,
+      "count": 725
+    },
+    "pct_owned_home": {
+      "min": 20.71,
+      "max": 88.72,
+      "count": 725
+    },
+    "pct_sikh": {
+      "min": 0.0,
+      "max": 93.33,
+      "count": 725
+    },
+    "pct_buddhist": {
+      "min": 0.0,
+      "max": 69.87,
+      "count": 725
+    },
+    "pct_jain": {
+      "min": 0.0,
+      "max": 5.38,
+      "count": 725
+    },
+    "pct_working_age": {
+      "min": 17.17,
+      "max": 32.85,
+      "count": 725
+    },
+    "pct_senior": {
+      "min": 6.73,
+      "max": 31.0,
+      "count": 725
+    },
+    "avg_household_size": {
+      "min": 1.81,
+      "max": 12.03,
+      "count": 725
+    },
+    "pct_large_hh": {
+      "min": 5.23,
+      "max": 54.16,
+      "count": 725
+    },
+    "pct_secondary_plus": {
+      "min": 4.91,
+      "max": 56.41,
+      "count": 725
+    },
+    "pct_below_primary": {
+      "min": 4.12,
+      "max": 27.06,
+      "count": 725
+    },
+    "pct_main_workers": {
+      "min": 30.65,
+      "max": 96.4,
+      "count": 725
+    },
+    "pct_marginal_workers": {
+      "min": 3.6,
+      "max": 69.35,
+      "count": 725
+    },
+    "pct_cultivators": {
+      "min": 0.0,
+      "max": 76.85,
+      "count": 725
+    },
+    "pct_nonfarm_workers": {
+      "min": 8.9,
+      "max": 98.59,
+      "count": 725
+    },
+    "pct_two_wheeler": {
+      "min": 0.68,
+      "max": 41.25,
+      "count": 725
+    },
+    "pct_mobile": {
+      "min": 6.88,
+      "max": 57.68,
+      "count": 725
+    },
+    "pct_radio": {
+      "min": 2.16,
+      "max": 54.25,
+      "count": 725
+    },
+    "pct_bathing": {
+      "min": 5.37,
+      "max": 81.88,
+      "count": 725
+    },
+    "pct_kitchen": {
+      "min": 25.07,
+      "max": 86.6,
+      "count": 725
+    },
+    "pct_flush": {
+      "min": 0.14,
+      "max": 19.96,
+      "count": 725
+    },
+    "pct_rented": {
+      "min": 0.27,
+      "max": 47.12,
+      "count": 725
+    },
+    "pct_dilapidated": {
+      "min": 0.13,
+      "max": 13.87,
+      "count": 725
+    },
+    "pct_low_income": {
+      "min": 1.66,
+      "max": 100.0,
+      "count": 725
+    },
+    "nl_2024": {
+      "min": 0.257,
+      "max": 54.578,
+      "count": 725
+    },
+    "nl_growth": {
+      "min": 7.0,
+      "max": 1137.1,
+      "count": 696
+    },
+    "pm25": {
+      "min": 5.6,
+      "max": 110.87,
+      "count": 721
+    },
+    "pm25_trend": {
+      "min": -19.4,
+      "max": 19.4,
+      "count": 721
+    },
+    "inst_births": {
+      "min": 18.1,
+      "max": 95.0,
+      "count": 638
+    },
+    "child_immun": {
+      "min": 45.0,
+      "max": 100.0,
+      "count": 628
+    },
+    "health_insurance": {
+      "min": 1.2,
+      "max": 97.8,
+      "count": 638
+    },
+    "improved_sanitation": {
+      "min": 32.2,
+      "max": 99.9,
+      "count": 638
+    },
+    "women_schooling": {
+      "min": 13.6,
+      "max": 88.2,
+      "count": 638
+    },
+    "women_anaemia": {
+      "min": 14.9,
+      "max": 92.0,
+      "count": 638
+    },
+    "women_overweight": {
+      "min": 3.9,
+      "max": 51.6,
+      "count": 638
+    },
+    "child_stunting": {
+      "min": 13.8,
+      "max": 59.0,
+      "count": 638
+    },
+    "idx_market": {
+      "min": 10.4,
+      "max": 91.0,
+      "count": 725
+    },
+    "idx_momentum": {
+      "min": 20.2,
+      "max": 81.7,
+      "count": 725
+    },
+    "idx_talent": {
+      "min": 21.3,
+      "max": 85.0,
+      "count": 725
+    },
+    "idx_affluence": {
+      "min": 3.3,
+      "max": 99.4,
+      "count": 725
+    },
+    "idx_infra": {
+      "min": 2.6,
+      "max": 99.6,
+      "count": 725
+    },
+    "idx_livability": {
+      "min": 11.6,
+      "max": 86.8,
+      "count": 638
+    },
+    "idx_innovation": {
+      "min": 2.0,
+      "max": 94.5,
+      "count": 725
+    }
+  }
+}

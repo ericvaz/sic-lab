@@ -1,0 +1,388 @@
+{
+  "country": "brazil",
+  "name": "Brazil",
+  "base": "/v1/brazil",
+  "license": "Open data from the SIC Lab, Spatial Intelligence Collective \u2014 IBGE \u2014 Censo Demogr\u00e1fico 2010 & 2022 and PIB municipal (open data, CC BY). Aggregated to microregions by the SIC Lab.",
+  "join_key": "dt_code",
+  "unit_type": "microregions",
+  "counts": {
+    "microregions": 558,
+    "states": 27,
+    "variables": 46
+  },
+  "geometry": "/brazil_micro.geojson",
+  "endpoints": {
+    "attributes": "/v1/brazil/districts.json",
+    "variable": "/v1/brazil/{variable_key}.json"
+  },
+  "variables": [
+    {
+      "key": "idx_sustainability",
+      "label": "Sustainability Score",
+      "category": "Sustainability",
+      "unit": "0\u2013100",
+      "year": "2022",
+      "endpoint": "/v1/brazil/idx_sustainability.json"
+    },
+    {
+      "key": "idx_sust_econ",
+      "label": "Economic Pillar",
+      "category": "Sustainability",
+      "unit": "0\u2013100",
+      "year": "2022",
+      "endpoint": "/v1/brazil/idx_sust_econ.json"
+    },
+    {
+      "key": "idx_sust_social",
+      "label": "Social Pillar",
+      "category": "Sustainability",
+      "unit": "0\u2013100",
+      "year": "2022",
+      "endpoint": "/v1/brazil/idx_sust_social.json"
+    },
+    {
+      "key": "idx_sust_env",
+      "label": "Environmental Pillar",
+      "category": "Sustainability",
+      "unit": "0\u2013100",
+      "year": "2022",
+      "endpoint": "/v1/brazil/idx_sust_env.json"
+    },
+    {
+      "key": "population",
+      "label": "Population",
+      "category": "Population",
+      "unit": "people",
+      "year": "2022",
+      "endpoint": "/v1/brazil/population.json"
+    },
+    {
+      "key": "density",
+      "label": "Population Density",
+      "category": "Population",
+      "unit": "per km\u00b2",
+      "year": "2022",
+      "endpoint": "/v1/brazil/density.json"
+    },
+    {
+      "key": "gdp_per_capita",
+      "label": "GDP per capita",
+      "category": "Economy",
+      "unit": "R$",
+      "year": "2021",
+      "endpoint": "/v1/brazil/gdp_per_capita.json"
+    },
+    {
+      "key": "pct_gva_agri",
+      "label": "GVA \u2014 Agriculture",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_gva_agri.json"
+    },
+    {
+      "key": "pct_gva_industry",
+      "label": "GVA \u2014 Industry",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_gva_industry.json"
+    },
+    {
+      "key": "pct_gva_services",
+      "label": "GVA \u2014 Services",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_gva_services.json"
+    },
+    {
+      "key": "workforce_participation",
+      "label": "Employment Rate",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/workforce_participation.json"
+    },
+    {
+      "key": "literacy_rate",
+      "label": "Literacy Rate",
+      "category": "Education",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/literacy_rate.json"
+    },
+    {
+      "key": "female_literacy_rate",
+      "label": "Female Literacy",
+      "category": "Education",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/female_literacy_rate.json"
+    },
+    {
+      "key": "male_literacy_rate",
+      "label": "Male Literacy",
+      "category": "Education",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/male_literacy_rate.json"
+    },
+    {
+      "key": "pct_graduate",
+      "label": "Higher Education",
+      "category": "Education",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_graduate.json"
+    },
+    {
+      "key": "sex_ratio",
+      "label": "Sex Ratio",
+      "category": "Demographics",
+      "unit": "F / 1000 M",
+      "year": "2022",
+      "endpoint": "/v1/brazil/sex_ratio.json"
+    },
+    {
+      "key": "pct_children",
+      "label": "Children (0\u201314)",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_children.json"
+    },
+    {
+      "key": "pct_youth",
+      "label": "Youth (under 30)",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_youth.json"
+    },
+    {
+      "key": "pct_workingage",
+      "label": "Working Age (15\u201364)",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_workingage.json"
+    },
+    {
+      "key": "pct_elderly",
+      "label": "Elderly (65+)",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_elderly.json"
+    },
+    {
+      "key": "pct_urban",
+      "label": "Urban Population",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_urban.json"
+    },
+    {
+      "key": "pct_sewerage",
+      "label": "Sewerage Connection",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_sewerage.json"
+    },
+    {
+      "key": "pct_water",
+      "label": "Piped Water",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_water.json"
+    },
+    {
+      "key": "pct_garbage",
+      "label": "Garbage Collection",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_garbage.json"
+    },
+    {
+      "key": "pct_internet",
+      "label": "Internet Use",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_internet.json"
+    },
+    {
+      "key": "pct_catholic",
+      "label": "Catholic",
+      "category": "Religion",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_catholic.json"
+    },
+    {
+      "key": "pct_evangelical",
+      "label": "Evangelical",
+      "category": "Religion",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_evangelical.json"
+    },
+    {
+      "key": "pct_no_religion",
+      "label": "No Religion",
+      "category": "Religion",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_no_religion.json"
+    },
+    {
+      "key": "pct_white",
+      "label": "White (Branca)",
+      "category": "Race",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_white.json"
+    },
+    {
+      "key": "pct_black",
+      "label": "Black (Preta)",
+      "category": "Race",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_black.json"
+    },
+    {
+      "key": "pct_brown",
+      "label": "Brown (Parda)",
+      "category": "Race",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_brown.json"
+    },
+    {
+      "key": "pct_indigenous",
+      "label": "Indigenous",
+      "category": "Race",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_indigenous.json"
+    },
+    {
+      "key": "pct_car",
+      "label": "Car Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2010",
+      "endpoint": "/v1/brazil/pct_car.json"
+    },
+    {
+      "key": "pct_two_wheeler",
+      "label": "Motorcycle Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2010",
+      "endpoint": "/v1/brazil/pct_two_wheeler.json"
+    },
+    {
+      "key": "pct_computer",
+      "label": "Computer Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2010",
+      "endpoint": "/v1/brazil/pct_computer.json"
+    },
+    {
+      "key": "pct_tv",
+      "label": "TV Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2010",
+      "endpoint": "/v1/brazil/pct_tv.json"
+    },
+    {
+      "key": "pct_radio",
+      "label": "Radio Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2010",
+      "endpoint": "/v1/brazil/pct_radio.json"
+    },
+    {
+      "key": "pct_fridge",
+      "label": "Refrigerator",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2010",
+      "endpoint": "/v1/brazil/pct_fridge.json"
+    },
+    {
+      "key": "pct_washing",
+      "label": "Washing Machine",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2010",
+      "endpoint": "/v1/brazil/pct_washing.json"
+    },
+    {
+      "key": "pct_phone",
+      "label": "Phone Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2010",
+      "endpoint": "/v1/brazil/pct_phone.json"
+    },
+    {
+      "key": "pct_mobile",
+      "label": "Mobile-only Households",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2010",
+      "endpoint": "/v1/brazil/pct_mobile.json"
+    },
+    {
+      "key": "pct_disability",
+      "label": "Disability Prevalence",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/pct_disability.json"
+    },
+    {
+      "key": "child_mortality",
+      "label": "Child Mortality",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2022",
+      "endpoint": "/v1/brazil/child_mortality.json"
+    },
+    {
+      "key": "fertility_rate",
+      "label": "Fertility",
+      "category": "Health & Livability",
+      "unit": "per woman",
+      "year": "2022",
+      "endpoint": "/v1/brazil/fertility_rate.json"
+    },
+    {
+      "key": "adolescent_fertility",
+      "label": "Adolescent Fertility",
+      "category": "Health & Livability",
+      "unit": "per 1,000",
+      "year": "2022",
+      "endpoint": "/v1/brazil/adolescent_fertility.json"
+    },
+    {
+      "key": "area_km2",
+      "label": "Area",
+      "category": "Geography",
+      "unit": "km\u00b2",
+      "year": "2022",
+      "endpoint": "/v1/brazil/area_km2.json"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+import{r as d,j as e}from"./index-D8Hhh5RX.js";const c="https://geo-data.io/v1",o={curl:`curl ${c}/india/literacy_rate.json`,JavaScript:`const res = await fetch(
+  "${c}/india/literacy_rate.json"
+);
+const { data } = await res.json();
+
+data[0];
+// { dt_code: 599, district: "Pathanamthitta",
+//   state: "Kerala", value: 88.74 }`,Python:`import requests
+
+rows = requests.get(
+    "${c}/india/literacy_rate.json"
+).json()["data"]
+
+rows[0]
+# {'dt_code': 599, 'district': 'Pathanamthitta',
+#  'state': 'Kerala', 'value': 88.74}`},u=[{path:"/v1/meta.json",desc:"Index of available countries and the API shape."},{path:"/v1/{country}/meta.json",desc:"A country's catalogue: every variable (key, label, category, unit, year), the list of states, counts, and endpoints."},{path:"/v1/{country}/{variable}.json",desc:"One free variable across all districts, sorted high→low. The workhorse endpoint."},{path:"/v1/{country}/districts.json",desc:"Every district with the free variables in one payload (attribute table, no geometry)."},{path:"/{country}_districts.geojson",desc:"District polygons (FeatureCollection). Join variable values on dt_code to map them."}],g=`import requests, geopandas as gpd
+
+# 1. geometry
+gdf = gpd.read_file("https://geo-data.io/india_districts.geojson")
+
+# 2. a variable
+rows = requests.get(
+    "${c}/india/literacy_rate.json"
+).json()["data"]
+lookup = {r["dt_code"]: r["value"] for r in rows}
+
+# 3. join on dt_code → ready for a choropleth or Moran's I
+gdf["literacy"] = gdf["dt_code"].map(lookup)`;function m({text:a}){const[i,n]=d.useState(!1);return e.jsx("button",{className:"gd-copy",onClick:()=>{var l;(l=navigator.clipboard)==null||l.writeText(a).then(()=>{n(!0),setTimeout(()=>n(!1),1200)})},children:i?"Copied ✓":"Copy"})}function x({code:a,label:i="shell"}){return e.jsxs("div",{className:"gd-code doc-code",children:[e.jsxs("div",{className:"gd-code-bar",children:[e.jsx("span",{className:"gd-base",children:i}),e.jsx(m,{text:a})]}),e.jsx("pre",{children:a})]})}function y(){var j;const[a,i]=d.useState("curl"),[n,l]=d.useState([]),[h,p]=d.useState({});d.useEffect(()=>{fetch("/v1/india/meta.json").then(s=>s.json()).then(s=>{l(s.variables||[]),p(s.counts||{})}).catch(()=>{})},[]);const t={};for(const s of n)(t[j=s.category]||(t[j]=[])).push(s);return e.jsxs("div",{className:"gd",children:[e.jsxs("nav",{className:"gd-nav",children:[e.jsxs("a",{className:"gd-logo",href:"/",children:["geo-",e.jsx("b",{children:"data"}),".io"]}),e.jsxs("div",{className:"gd-nav-links",children:[e.jsx("a",{href:"/#countries",children:"Countries"}),e.jsx("a",{href:"/d",children:"Datasets"}),e.jsx("a",{href:"/docs",children:"API"}),e.jsx("a",{href:"/#access",children:"Pricing"}),e.jsx("a",{href:"/docs",children:"Docs"})]}),e.jsx("div",{className:"gd-nav-act",children:e.jsx("a",{className:"gd-btn gd-btn-primary",href:"/india",children:"Get access"})})]}),e.jsxs("main",{className:"gd-wrap gd-doc",children:[e.jsx("h1",{children:"API reference"}),e.jsx("p",{className:"doc-lead",children:"A free, fast, RESTful JSON API for sub-national open data. No key, no auth, CORS-enabled — fetch it straight from a browser, notebook or server."}),e.jsxs("div",{className:"doc-pills",children:[e.jsx("span",{children:"No API key"}),e.jsx("span",{children:"CORS: *"}),e.jsx("span",{children:"CDN-cached"}),e.jsx("span",{children:"Static & versioned"})]}),e.jsx("h2",{id:"quickstart",children:"Quickstart"}),e.jsxs("p",{children:["Every variable is one GET request. Base URL ",e.jsx("code",{className:"inl",children:c}),"."]}),e.jsxs("div",{className:"gd-code doc-code",children:[e.jsxs("div",{className:"gd-code-bar",children:[e.jsx("div",{className:"gd-tabs",children:Object.keys(o).map(s=>e.jsx("button",{className:"gd-tab"+(s===a?" on":""),onClick:()=>i(s),children:s},s))}),e.jsx(m,{text:o[a]})]}),e.jsx("pre",{children:o[a]})]}),e.jsx("h2",{id:"endpoints",children:"Endpoints"}),e.jsxs("p",{children:["Paths are country-namespaced. Three countries are live:"," ",e.jsx("code",{className:"inl",children:"india"})," (725 districts),"," ",e.jsx("code",{className:"inl",children:"brazil"})," (558 microregions) and"," ",e.jsx("code",{className:"inl",children:"venezuela"})," (335 municipios — including the 2026 M7.5 Yumare earthquake layers). Brazil and Venezuela are fully free; for India the free API serves ",h.free_variables??12," ","headline variables and the other ",h.premium_variables??69," ","(indices, segments, consumer spending, health, environment, finance) are on ",e.jsx("a",{className:"inline-link",href:"/pricing",children:"Pro"}),". Every country follows the same shape below."]}),u.map(s=>e.jsxs("div",{className:"gd-ep",children:[e.jsxs("div",{className:"gd-ep-head",children:[e.jsx("span",{className:"gd-method",children:"GET"}),e.jsx("span",{className:"gd-ep-path",children:s.path})]}),e.jsx("p",{className:"gd-ep-desc",children:s.desc})]},s.path)),e.jsx("h2",{id:"response",children:"Response shape"}),e.jsxs("p",{children:["Variable endpoints return a small envelope around a ",e.jsx("code",{className:"inl",children:"data"})," array:"]}),e.jsx(x,{label:"json",code:`{
+  "country": "india",
+  "variable": "literacy_rate",
+  "label": "Literacy Rate",
+  "unit": "%",
+  "year": "2011",
+  "count": 725,
+  "license": "…",
+  "data": [
+    { "dt_code": 599, "district": "Pathanamthitta",
+      "state": "Kerala", "value": 88.74 },
+    …
+  ]
+}`}),e.jsxs("ul",{children:[e.jsxs("li",{children:[e.jsx("code",{className:"inl",children:"dt_code"})," — the 2011 Census district code; the ",e.jsx("b",{children:"join key"})," to the geometry GeoJSON and to every other variable."]}),e.jsxs("li",{children:[e.jsx("code",{className:"inl",children:"value"})," — the metric for that district (units in ",e.jsx("code",{className:"inl",children:"unit"}),", vintage in ",e.jsx("code",{className:"inl",children:"year"}),")."]}),e.jsxs("li",{children:[e.jsx("code",{className:"inl",children:"data"})," is sorted by value, highest first."]})]}),e.jsx("h2",{id:"spatial",children:"Joining data to geometry"}),e.jsxs("p",{children:["Fetch a variable, key it by ",e.jsx("code",{className:"inl",children:"dt_code"}),", and map it onto the district polygons — ready for a choropleth or spatial statistics (Moran's I, LISA, …)."]}),e.jsx(x,{label:"python",code:g}),e.jsx("h2",{id:"catalogue",children:"Variable catalogue"}),e.jsxs("p",{children:["The ",n.length||12," free India variables — each its own endpoint. Premium datasets (indices, segments, spending, health, environment, finance) unlock with"," ",e.jsx("a",{className:"inline-link",href:"/pricing",children:"Pro"}),". Machine-readable list at"," ",e.jsx("a",{className:"inline-link",href:"/v1/india/meta.json",children:"/v1/india/meta.json"}),"."]}),Object.keys(t).sort().map(s=>e.jsxs("div",{children:[e.jsx("div",{className:"doc-cat",children:s}),e.jsxs("table",{className:"gd-vartable",children:[e.jsx("thead",{children:e.jsxs("tr",{children:[e.jsx("th",{children:"Dataset"}),e.jsx("th",{children:"Endpoint"}),e.jsx("th",{children:"Year"})]})}),e.jsx("tbody",{children:t[s].map(r=>e.jsxs("tr",{children:[e.jsx("td",{children:r.label}),e.jsx("td",{children:e.jsx("a",{className:"inline-link",href:`/v1/india/${r.key}.json`,children:e.jsxs("code",{children:["/v1/india/",r.key,".json"]})})}),e.jsx("td",{className:"yr",children:r.year})]},r.key))})]})]},s)),e.jsx("h2",{id:"fairuse",children:"Rate limits & licensing"}),e.jsxs("ul",{children:[e.jsx("li",{children:"No key and no hard rate limit — responses are static files on a CDN. Please cache where you can and don't hammer it."}),e.jsxs("li",{children:["The ",e.jsx("code",{className:"inl",children:"/v1"})," prefix is versioned; breaking changes ship under a new version."]}),e.jsxs("li",{children:["Open data — attribute ",e.jsx("b",{children:"GeoData (geo-data.io)"})," and the underlying sources, listed at ",e.jsx("a",{className:"inline-link",href:"/d",children:"/d"}),". Composite indices & segments are GeoData's own analysis."]})]})]}),e.jsx("footer",{className:"gd-footer",children:e.jsxs("div",{className:"gd-wrap gd-foot-bottom",children:[e.jsx("span",{children:"© 2026 geo-data.io — All rights reserved."}),e.jsx("a",{className:"gd-link",href:"/",children:"← Back to home"})]})})]})}export{y as default};

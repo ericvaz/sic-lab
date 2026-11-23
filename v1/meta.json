@@ -1,0 +1,32 @@
+{
+  "api": "SIC Lab v1",
+  "brand": "Spatial Intelligence Collective",
+  "description": "Open geodata for teaching and research. Country-namespaced.",
+  "countries": [
+    {
+      "id": "india",
+      "name": "India",
+      "base": "/v1/india",
+      "meta": "/v1/india/meta.json",
+      "units": 725,
+      "variables": 81
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "base": "/v1/brazil",
+      "meta": "/v1/brazil/meta.json",
+      "units": 558,
+      "variables": 46
+    },
+    {
+      "id": "venezuela",
+      "name": "Venezuela",
+      "base": "/v1/venezuela",
+      "meta": "/v1/venezuela/meta.json",
+      "units": 335,
+      "variables": 24
+    }
+  ],
+  "usage": "fetch('https://lab.spatialintelligence.network/v1/venezuela/mmi.json')"
+}

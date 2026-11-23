@@ -1,0 +1,668 @@
+{
+  "country": "india",
+  "name": "India",
+  "base": "/v1/india",
+  "license": "Open data from the SIC Lab, Spatial Intelligence Collective \u2014 Census of India 2011 \u00b7 NFHS-5 \u00b7 RBI \u00b7 DPIIT \u00b7 NOAA VIIRS \u00b7 WUSTL ACAG \u00b7 MoSPI. Browse free; download CSV, GeoJSON or Shapefiles.",
+  "join_key": "dt_code",
+  "unit_type": "districts",
+  "counts": {
+    "districts": 725,
+    "states": 36,
+    "variables": 81
+  },
+  "geometry": "/india_districts.geojson",
+  "endpoints": {
+    "attributes": "/v1/india/districts.json",
+    "variable": "/v1/india/{variable_key}.json"
+  },
+  "variables": [
+    {
+      "key": "segment",
+      "label": "Geodemographic Segment",
+      "category": "Segments",
+      "unit": "8 segments",
+      "year": "composite",
+      "endpoint": "/v1/india/segment.json"
+    },
+    {
+      "key": "idx_market",
+      "label": "Market Opportunity",
+      "category": "Investment Indices",
+      "unit": "score 0\u2013100",
+      "year": "composite",
+      "endpoint": "/v1/india/idx_market.json"
+    },
+    {
+      "key": "idx_momentum",
+      "label": "Economic Momentum",
+      "category": "Investment Indices",
+      "unit": "score 0\u2013100",
+      "year": "composite",
+      "endpoint": "/v1/india/idx_momentum.json"
+    },
+    {
+      "key": "idx_talent",
+      "label": "Talent & Workforce",
+      "category": "Investment Indices",
+      "unit": "score 0\u2013100",
+      "year": "composite",
+      "endpoint": "/v1/india/idx_talent.json"
+    },
+    {
+      "key": "idx_affluence",
+      "label": "Consumer Affluence",
+      "category": "Investment Indices",
+      "unit": "score 0\u2013100",
+      "year": "composite",
+      "endpoint": "/v1/india/idx_affluence.json"
+    },
+    {
+      "key": "idx_infra",
+      "label": "Infrastructure & Living",
+      "category": "Investment Indices",
+      "unit": "score 0\u2013100",
+      "year": "composite",
+      "endpoint": "/v1/india/idx_infra.json"
+    },
+    {
+      "key": "idx_livability",
+      "label": "Livability Index",
+      "category": "Investment Indices",
+      "unit": "score 0\u2013100",
+      "year": "composite",
+      "endpoint": "/v1/india/idx_livability.json"
+    },
+    {
+      "key": "idx_econ_depth",
+      "label": "Economic Depth",
+      "category": "Investment Indices",
+      "unit": "score 0\u2013100",
+      "year": "composite",
+      "endpoint": "/v1/india/idx_econ_depth.json"
+    },
+    {
+      "key": "idx_innovation",
+      "label": "Innovation Potential",
+      "category": "Investment Indices",
+      "unit": "score 0\u2013100",
+      "year": "composite",
+      "endpoint": "/v1/india/idx_innovation.json"
+    },
+    {
+      "key": "population",
+      "label": "Total Population",
+      "category": "Population",
+      "unit": "people",
+      "year": "2011",
+      "endpoint": "/v1/india/population.json"
+    },
+    {
+      "key": "density",
+      "label": "Population Density",
+      "category": "Population",
+      "unit": "per km\u00b2",
+      "year": "2011",
+      "endpoint": "/v1/india/density.json"
+    },
+    {
+      "key": "fdi_fy2425",
+      "label": "FDI Inflows",
+      "category": "Business Environment",
+      "unit": "US$ B \u00b7 FY24-25",
+      "year": "FY24\u201325",
+      "endpoint": "/v1/india/fdi_fy2425.json"
+    },
+    {
+      "key": "eodb_tier",
+      "label": "Ease of Doing Business",
+      "category": "Business Environment",
+      "unit": "tier",
+      "year": "2020",
+      "endpoint": "/v1/india/eodb_tier.json"
+    },
+    {
+      "key": "credit_pc",
+      "label": "Bank Credit / Capita",
+      "category": "Financial Depth",
+      "unit": "\u20b9 \u00b7 FY25",
+      "year": "FY25",
+      "endpoint": "/v1/india/credit_pc.json"
+    },
+    {
+      "key": "deposit_pc",
+      "label": "Bank Deposits / Capita",
+      "category": "Financial Depth",
+      "unit": "\u20b9 \u00b7 FY25",
+      "year": "FY25",
+      "endpoint": "/v1/india/deposit_pc.json"
+    },
+    {
+      "key": "cd_ratio",
+      "label": "Credit-Deposit Ratio",
+      "category": "Financial Depth",
+      "unit": "%",
+      "year": "FY25",
+      "endpoint": "/v1/india/cd_ratio.json"
+    },
+    {
+      "key": "startups_per_million",
+      "label": "Startups per Million",
+      "category": "Innovation",
+      "unit": "per M people",
+      "year": "2019\u201323",
+      "endpoint": "/v1/india/startups_per_million.json"
+    },
+    {
+      "key": "startups_total",
+      "label": "DPIIT Startups \u201919\u2013\u201923",
+      "category": "Innovation",
+      "unit": "count",
+      "year": "2019\u201323",
+      "endpoint": "/v1/india/startups_total.json"
+    },
+    {
+      "key": "nl_2024",
+      "label": "Nighttime Lights (2024)",
+      "category": "Economic Activity",
+      "unit": "VIIRS radiance",
+      "year": "2024",
+      "endpoint": "/v1/india/nl_2024.json"
+    },
+    {
+      "key": "nl_growth",
+      "label": "Nightlight Growth \u201912\u2013\u201924",
+      "category": "Economic Activity",
+      "unit": "%",
+      "year": "2012\u201324",
+      "endpoint": "/v1/india/nl_growth.json"
+    },
+    {
+      "key": "pm25",
+      "label": "Air Pollution (PM2.5)",
+      "category": "Environment",
+      "unit": "\u00b5g/m\u00b3 \u00b7 2020",
+      "year": "2020",
+      "endpoint": "/v1/india/pm25.json"
+    },
+    {
+      "key": "pm25_trend",
+      "label": "PM2.5 Trend \u201910\u2013\u201920",
+      "category": "Environment",
+      "unit": "\u00b5g/m\u00b3 change",
+      "year": "2010\u201320",
+      "endpoint": "/v1/india/pm25_trend.json"
+    },
+    {
+      "key": "inst_births",
+      "label": "Institutional Births",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2019\u201321",
+      "endpoint": "/v1/india/inst_births.json"
+    },
+    {
+      "key": "child_immun",
+      "label": "Child Immunization",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2019\u201321",
+      "endpoint": "/v1/india/child_immun.json"
+    },
+    {
+      "key": "health_insurance",
+      "label": "Health Insurance",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2019\u201321",
+      "endpoint": "/v1/india/health_insurance.json"
+    },
+    {
+      "key": "improved_sanitation",
+      "label": "Improved Sanitation",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2019\u201321",
+      "endpoint": "/v1/india/improved_sanitation.json"
+    },
+    {
+      "key": "women_schooling",
+      "label": "Women 10+ yrs Schooling",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2019\u201321",
+      "endpoint": "/v1/india/women_schooling.json"
+    },
+    {
+      "key": "women_anaemia",
+      "label": "Anaemia in Women",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2019\u201321",
+      "endpoint": "/v1/india/women_anaemia.json"
+    },
+    {
+      "key": "child_stunting",
+      "label": "Child Stunting",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2019\u201321",
+      "endpoint": "/v1/india/child_stunting.json"
+    },
+    {
+      "key": "women_overweight",
+      "label": "Overweight / Obesity",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2019\u201321",
+      "endpoint": "/v1/india/women_overweight.json"
+    },
+    {
+      "key": "high_income_share",
+      "label": "Affluent Households",
+      "category": "Consumer Market",
+      "unit": "% > \u20b95.45L",
+      "year": "2011",
+      "endpoint": "/v1/india/high_income_share.json"
+    },
+    {
+      "key": "pct_car",
+      "label": "Car Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_car.json"
+    },
+    {
+      "key": "pct_phone",
+      "label": "Phone Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_phone.json"
+    },
+    {
+      "key": "pct_tv",
+      "label": "TV Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_tv.json"
+    },
+    {
+      "key": "pct_computer",
+      "label": "Computer Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_computer.json"
+    },
+    {
+      "key": "literacy_rate",
+      "label": "Literacy Rate",
+      "category": "Education",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/literacy_rate.json"
+    },
+    {
+      "key": "female_literacy_rate",
+      "label": "Female Literacy",
+      "category": "Education",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/female_literacy_rate.json"
+    },
+    {
+      "key": "male_literacy_rate",
+      "label": "Male Literacy",
+      "category": "Education",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/male_literacy_rate.json"
+    },
+    {
+      "key": "pct_graduate",
+      "label": "Graduate Share",
+      "category": "Education",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_graduate.json"
+    },
+    {
+      "key": "sex_ratio",
+      "label": "Sex Ratio",
+      "category": "Demographics",
+      "unit": "F / 1000 M",
+      "year": "2011",
+      "endpoint": "/v1/india/sex_ratio.json"
+    },
+    {
+      "key": "pct_young",
+      "label": "Population Under 30",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_young.json"
+    },
+    {
+      "key": "pct_sc",
+      "label": "Scheduled Castes",
+      "category": "Social groups",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_sc.json"
+    },
+    {
+      "key": "pct_st",
+      "label": "Scheduled Tribes",
+      "category": "Social groups",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_st.json"
+    },
+    {
+      "key": "pct_hindu",
+      "label": "Hindu",
+      "category": "Religion",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_hindu.json"
+    },
+    {
+      "key": "pct_muslim",
+      "label": "Muslim",
+      "category": "Religion",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_muslim.json"
+    },
+    {
+      "key": "pct_christian",
+      "label": "Christian",
+      "category": "Religion",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_christian.json"
+    },
+    {
+      "key": "pct_urban_hh",
+      "label": "Urban Households",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_urban_hh.json"
+    },
+    {
+      "key": "pct_electricity",
+      "label": "Electric Lighting",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_electricity.json"
+    },
+    {
+      "key": "pct_internet",
+      "label": "Internet Access",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_internet.json"
+    },
+    {
+      "key": "pct_lpg",
+      "label": "LPG / PNG Cooking",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_lpg.json"
+    },
+    {
+      "key": "workforce_participation",
+      "label": "Workforce Participation",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/workforce_participation.json"
+    },
+    {
+      "key": "female_workforce",
+      "label": "Female Workforce",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/female_workforce.json"
+    },
+    {
+      "key": "pct_agri_workers",
+      "label": "Agricultural Workers",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_agri_workers.json"
+    },
+    {
+      "key": "pct_tapwater",
+      "label": "Tap Water Access",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_tapwater.json"
+    },
+    {
+      "key": "pct_latrine",
+      "label": "In-home Latrine",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_latrine.json"
+    },
+    {
+      "key": "pct_owned_home",
+      "label": "Home Ownership",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_owned_home.json"
+    },
+    {
+      "key": "pct_sikh",
+      "label": "Sikh",
+      "category": "Religion",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_sikh.json"
+    },
+    {
+      "key": "pct_buddhist",
+      "label": "Buddhist",
+      "category": "Religion",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_buddhist.json"
+    },
+    {
+      "key": "pct_jain",
+      "label": "Jain",
+      "category": "Religion",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_jain.json"
+    },
+    {
+      "key": "pct_working_age",
+      "label": "Prime Working Age 30\u201349",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_working_age.json"
+    },
+    {
+      "key": "pct_senior",
+      "label": "Population 50+",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_senior.json"
+    },
+    {
+      "key": "avg_household_size",
+      "label": "Avg Household Size",
+      "category": "Demographics",
+      "unit": "people",
+      "year": "2011",
+      "endpoint": "/v1/india/avg_household_size.json"
+    },
+    {
+      "key": "pct_large_hh",
+      "label": "Large Households (6+)",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_large_hh.json"
+    },
+    {
+      "key": "pct_secondary_plus",
+      "label": "Secondary+ Educated",
+      "category": "Education",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_secondary_plus.json"
+    },
+    {
+      "key": "pct_below_primary",
+      "label": "Below Primary",
+      "category": "Education",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_below_primary.json"
+    },
+    {
+      "key": "pct_main_workers",
+      "label": "Main (Stable) Workers",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_main_workers.json"
+    },
+    {
+      "key": "pct_marginal_workers",
+      "label": "Marginal Workers",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_marginal_workers.json"
+    },
+    {
+      "key": "pct_cultivators",
+      "label": "Cultivators",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_cultivators.json"
+    },
+    {
+      "key": "pct_nonfarm_workers",
+      "label": "Non-farm Workers",
+      "category": "Economy",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_nonfarm_workers.json"
+    },
+    {
+      "key": "pct_two_wheeler",
+      "label": "Two-wheeler Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_two_wheeler.json"
+    },
+    {
+      "key": "pct_mobile",
+      "label": "Mobile-only Households",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_mobile.json"
+    },
+    {
+      "key": "pct_radio",
+      "label": "Radio Ownership",
+      "category": "Consumer Market",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_radio.json"
+    },
+    {
+      "key": "pct_low_income",
+      "label": "Low-Income Households",
+      "category": "Consumer Market",
+      "unit": "% < \u20b945k",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_low_income.json"
+    },
+    {
+      "key": "pct_bathing",
+      "label": "Bathing Facility",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_bathing.json"
+    },
+    {
+      "key": "pct_kitchen",
+      "label": "Separate Kitchen",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_kitchen.json"
+    },
+    {
+      "key": "pct_flush",
+      "label": "Flush Latrine",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_flush.json"
+    },
+    {
+      "key": "pct_rented",
+      "label": "Rented Homes",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_rented.json"
+    },
+    {
+      "key": "pct_dilapidated",
+      "label": "Dilapidated Housing",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/india/pct_dilapidated.json"
+    },
+    {
+      "key": "mpce",
+      "label": "Monthly Spend / Person",
+      "category": "Consumer Spending",
+      "unit": "\u20b9/month",
+      "year": "2023\u201324",
+      "endpoint": "/v1/india/mpce.json"
+    },
+    {
+      "key": "mpce_urban",
+      "label": "Urban Monthly Spend",
+      "category": "Consumer Spending",
+      "unit": "\u20b9/month",
+      "year": "2023\u201324",
+      "endpoint": "/v1/india/mpce_urban.json"
+    },
+    {
+      "key": "mpce_rural",
+      "label": "Rural Monthly Spend",
+      "category": "Consumer Spending",
+      "unit": "\u20b9/month",
+      "year": "2023\u201324",
+      "endpoint": "/v1/india/mpce_rural.json"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "country": "venezuela",
+  "name": "Venezuela",
+  "base": "/v1/venezuela",
+  "license": "Open data from the SIC Lab, Spatial Intelligence Collective \u2014 OCHA Common Operational Datasets (INE 2011 census; CC BY-IGO) \u00b7 USGS ShakeMap (public domain) \u00b7 WorldPop (CC BY 4.0) \u00b7 OpenStreetMap contributors (ODbL) \u00b7 HeiGIT risk inputs (CC BY-SA). Derived analysis layers by the SIC Lab.",
+  "join_key": "dt_code",
+  "unit_type": "municipios",
+  "counts": {
+    "municipios": 335,
+    "states": 24,
+    "variables": 24
+  },
+  "geometry": "/venezuela_munis.geojson",
+  "endpoints": {
+    "attributes": "/v1/venezuela/districts.json",
+    "variable": "/v1/venezuela/{variable_key}.json"
+  },
+  "variables": [
+    {
+      "key": "segment",
+      "label": "Geodemographic Segment",
+      "category": "Segments",
+      "unit": "6 types",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/segment.json"
+    },
+    {
+      "key": "population",
+      "label": "Population",
+      "category": "Population",
+      "unit": "people",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/population.json"
+    },
+    {
+      "key": "density",
+      "label": "Population Density",
+      "category": "Population",
+      "unit": "per km\u00b2",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/density.json"
+    },
+    {
+      "key": "sex_ratio",
+      "label": "Sex Ratio",
+      "category": "Demographics",
+      "unit": "F / 1000 M",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/sex_ratio.json"
+    },
+    {
+      "key": "pct_female",
+      "label": "Female Share",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/pct_female.json"
+    },
+    {
+      "key": "pct_children",
+      "label": "Children (0\u201314)",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/pct_children.json"
+    },
+    {
+      "key": "pct_youth",
+      "label": "Youth (under 30)",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/pct_youth.json"
+    },
+    {
+      "key": "pct_workingage",
+      "label": "Working Age (15\u201364)",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/pct_workingage.json"
+    },
+    {
+      "key": "pct_elderly",
+      "label": "Elderly (65+)",
+      "category": "Demographics",
+      "unit": "%",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/pct_elderly.json"
+    },
+    {
+      "key": "pct_rural",
+      "label": "Rural Population",
+      "category": "Living standards",
+      "unit": "%",
+      "year": "2020\u201324",
+      "endpoint": "/v1/venezuela/pct_rural.json"
+    },
+    {
+      "key": "hospitals_per_100k",
+      "label": "Hospitals per 100k",
+      "category": "Health & Livability",
+      "unit": "per 100k",
+      "year": "2020\u201324",
+      "endpoint": "/v1/venezuela/hospitals_per_100k.json"
+    },
+    {
+      "key": "pct_hospital_access",
+      "label": "Hospital Access (1h)",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2020\u201324",
+      "endpoint": "/v1/venezuela/pct_hospital_access.json"
+    },
+    {
+      "key": "pct_health_access",
+      "label": "Primary-care Access (1h)",
+      "category": "Health & Livability",
+      "unit": "%",
+      "year": "2020\u201324",
+      "endpoint": "/v1/venezuela/pct_health_access.json"
+    },
+    {
+      "key": "pct_school_access",
+      "label": "School Access (10km)",
+      "category": "Education",
+      "unit": "%",
+      "year": "2020\u201324",
+      "endpoint": "/v1/venezuela/pct_school_access.json"
+    },
+    {
+      "key": "mmi",
+      "label": "Shaking Intensity (MMI)",
+      "category": "Earthquake \u00b7 Jun 2026",
+      "unit": "MMI",
+      "year": "Jun 2026",
+      "endpoint": "/v1/venezuela/mmi.json"
+    },
+    {
+      "key": "pga_g",
+      "label": "Peak Ground Acceleration",
+      "category": "Earthquake \u00b7 Jun 2026",
+      "unit": "%g",
+      "year": "Jun 2026",
+      "endpoint": "/v1/venezuela/pga_g.json"
+    },
+    {
+      "key": "pop_strong_shaking",
+      "label": "Pop. in Strong-Shaking Zone",
+      "category": "Earthquake \u00b7 Jun 2026",
+      "unit": "people",
+      "year": "Jun 2026",
+      "endpoint": "/v1/venezuela/pop_strong_shaking.json"
+    },
+    {
+      "key": "dist_epicenter_km",
+      "label": "Distance to Epicenter",
+      "category": "Earthquake \u00b7 Jun 2026",
+      "unit": "km",
+      "year": "Jun 2026",
+      "endpoint": "/v1/venezuela/dist_epicenter_km.json"
+    },
+    {
+      "key": "response_priority",
+      "label": "Response Priority",
+      "category": "Emergency & planning",
+      "unit": "0\u2013100",
+      "year": "derived",
+      "endpoint": "/v1/venezuela/response_priority.json"
+    },
+    {
+      "key": "underserved_exposed",
+      "label": "Underserved Exposed",
+      "category": "Emergency & planning",
+      "unit": "people",
+      "year": "derived",
+      "endpoint": "/v1/venezuela/underserved_exposed.json"
+    },
+    {
+      "key": "shaking_residual",
+      "label": "Shaking Anomaly",
+      "category": "Emergency & planning",
+      "unit": "\u0394 MMI",
+      "year": "derived",
+      "endpoint": "/v1/venezuela/shaking_residual.json"
+    },
+    {
+      "key": "dependency_ratio",
+      "label": "Age Dependency",
+      "category": "Emergency & planning",
+      "unit": "per 100",
+      "year": "derived",
+      "endpoint": "/v1/venezuela/dependency_ratio.json"
+    },
+    {
+      "key": "osm_activity_quake",
+      "label": "OSM Mapping Activity",
+      "category": "Emergency & planning",
+      "unit": "changesets",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/osm_activity_quake.json"
+    },
+    {
+      "key": "area_km2",
+      "label": "Area",
+      "category": "Geography",
+      "unit": "km\u00b2",
+      "year": "2011",
+      "endpoint": "/v1/venezuela/area_km2.json"
+    }
+  ]
+}
