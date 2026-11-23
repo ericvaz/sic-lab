@@ -6,7 +6,7 @@
   "join_key": "dt_code",
   "unit_type": "districts",
   "counts": {
-    "districts": 725,
+    "districts": 723,
     "states": 36,
     "variables": 81
   },
