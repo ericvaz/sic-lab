@@ -22,6 +22,9 @@
       "category": "Sustainability",
       "unit": "0\u2013100",
       "year": "2022",
+      "source": "SIC Lab analysis, Spatial Intelligence Collective, built from the sources above",
+      "license": "CC BY 4.0",
+      "source_url": "https://lab.spatialintelligence.network/",
       "endpoint": "/v1/brazil/idx_sustainability.json"
     },
     {
@@ -30,6 +33,9 @@
       "category": "Sustainability",
       "unit": "0\u2013100",
       "year": "2022",
+      "source": "SIC Lab analysis, Spatial Intelligence Collective, built from the sources above",
+      "license": "CC BY 4.0",
+      "source_url": "https://lab.spatialintelligence.network/",
       "endpoint": "/v1/brazil/idx_sust_econ.json"
     },
     {
@@ -38,6 +44,9 @@
       "category": "Sustainability",
       "unit": "0\u2013100",
       "year": "2022",
+      "source": "SIC Lab analysis, Spatial Intelligence Collective, built from the sources above",
+      "license": "CC BY 4.0",
+      "source_url": "https://lab.spatialintelligence.network/",
       "endpoint": "/v1/brazil/idx_sust_social.json"
     },
     {
@@ -46,6 +55,9 @@
       "category": "Sustainability",
       "unit": "0\u2013100",
       "year": "2022",
+      "source": "SIC Lab analysis, Spatial Intelligence Collective, built from the sources above",
+      "license": "CC BY 4.0",
+      "source_url": "https://lab.spatialintelligence.network/",
       "endpoint": "/v1/brazil/idx_sust_env.json"
     },
     {
@@ -54,6 +66,9 @@
       "category": "Population",
       "unit": "people",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/population.json"
     },
     {
@@ -62,6 +77,9 @@
       "category": "Population",
       "unit": "per km\u00b2",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/density.json"
     },
     {
@@ -70,6 +88,9 @@
       "category": "Economy",
       "unit": "R$",
       "year": "2021",
+      "source": "IBGE PIB dos Munic\u00edpios 2021",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html",
       "endpoint": "/v1/brazil/gdp_per_capita.json"
     },
     {
@@ -78,6 +99,9 @@
       "category": "Economy",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_gva_agri.json"
     },
     {
@@ -86,6 +110,9 @@
       "category": "Economy",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_gva_industry.json"
     },
     {
@@ -94,6 +121,9 @@
       "category": "Economy",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_gva_services.json"
     },
     {
@@ -102,6 +132,9 @@
       "category": "Economy",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/workforce_participation.json"
     },
     {
@@ -110,6 +143,9 @@
       "category": "Education",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/literacy_rate.json"
     },
     {
@@ -118,6 +154,9 @@
       "category": "Education",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/female_literacy_rate.json"
     },
     {
@@ -126,6 +165,9 @@
       "category": "Education",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/male_literacy_rate.json"
     },
     {
@@ -134,6 +176,9 @@
       "category": "Education",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_graduate.json"
     },
     {
@@ -142,6 +187,9 @@
       "category": "Demographics",
       "unit": "F / 1000 M",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/sex_ratio.json"
     },
     {
@@ -150,6 +198,9 @@
       "category": "Demographics",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_children.json"
     },
     {
@@ -158,6 +209,9 @@
       "category": "Demographics",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_youth.json"
     },
     {
@@ -166,6 +220,9 @@
       "category": "Demographics",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_workingage.json"
     },
     {
@@ -174,6 +231,9 @@
       "category": "Demographics",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_elderly.json"
     },
     {
@@ -182,6 +242,9 @@
       "category": "Living standards",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_urban.json"
     },
     {
@@ -190,6 +253,9 @@
       "category": "Living standards",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_sewerage.json"
     },
     {
@@ -198,6 +264,9 @@
       "category": "Living standards",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_water.json"
     },
     {
@@ -206,6 +275,9 @@
       "category": "Living standards",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_garbage.json"
     },
     {
@@ -214,6 +286,9 @@
       "category": "Living standards",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_internet.json"
     },
     {
@@ -222,6 +297,9 @@
       "category": "Religion",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_catholic.json"
     },
     {
@@ -230,6 +308,9 @@
       "category": "Religion",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_evangelical.json"
     },
     {
@@ -238,6 +319,9 @@
       "category": "Religion",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_no_religion.json"
     },
     {
@@ -246,6 +330,9 @@
       "category": "Race",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_white.json"
     },
     {
@@ -254,6 +341,9 @@
       "category": "Race",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_black.json"
     },
     {
@@ -262,6 +352,9 @@
       "category": "Race",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_brown.json"
     },
     {
@@ -270,6 +363,9 @@
       "category": "Race",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_indigenous.json"
     },
     {
@@ -278,6 +374,9 @@
       "category": "Consumer Market",
       "unit": "%",
       "year": "2010",
+      "source": "IBGE Censo Demogr\u00e1fico 2010",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010",
       "endpoint": "/v1/brazil/pct_car.json"
     },
     {
@@ -286,6 +385,9 @@
       "category": "Consumer Market",
       "unit": "%",
       "year": "2010",
+      "source": "IBGE Censo Demogr\u00e1fico 2010",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010",
       "endpoint": "/v1/brazil/pct_two_wheeler.json"
     },
     {
@@ -294,6 +396,9 @@
       "category": "Consumer Market",
       "unit": "%",
       "year": "2010",
+      "source": "IBGE Censo Demogr\u00e1fico 2010",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010",
       "endpoint": "/v1/brazil/pct_computer.json"
     },
     {
@@ -302,6 +407,9 @@
       "category": "Consumer Market",
       "unit": "%",
       "year": "2010",
+      "source": "IBGE Censo Demogr\u00e1fico 2010",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010",
       "endpoint": "/v1/brazil/pct_tv.json"
     },
     {
@@ -310,6 +418,9 @@
       "category": "Consumer Market",
       "unit": "%",
       "year": "2010",
+      "source": "IBGE Censo Demogr\u00e1fico 2010",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010",
       "endpoint": "/v1/brazil/pct_radio.json"
     },
     {
@@ -318,6 +429,9 @@
       "category": "Consumer Market",
       "unit": "%",
       "year": "2010",
+      "source": "IBGE Censo Demogr\u00e1fico 2010",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010",
       "endpoint": "/v1/brazil/pct_fridge.json"
     },
     {
@@ -326,6 +440,9 @@
       "category": "Consumer Market",
       "unit": "%",
       "year": "2010",
+      "source": "IBGE Censo Demogr\u00e1fico 2010",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010",
       "endpoint": "/v1/brazil/pct_washing.json"
     },
     {
@@ -334,6 +451,9 @@
       "category": "Consumer Market",
       "unit": "%",
       "year": "2010",
+      "source": "IBGE Censo Demogr\u00e1fico 2010",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010",
       "endpoint": "/v1/brazil/pct_phone.json"
     },
     {
@@ -342,6 +462,9 @@
       "category": "Consumer Market",
       "unit": "%",
       "year": "2010",
+      "source": "IBGE Censo Demogr\u00e1fico 2010",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010",
       "endpoint": "/v1/brazil/pct_mobile.json"
     },
     {
@@ -350,6 +473,9 @@
       "category": "Health & Livability",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/pct_disability.json"
     },
     {
@@ -358,6 +484,9 @@
       "category": "Health & Livability",
       "unit": "%",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/child_mortality.json"
     },
     {
@@ -366,6 +495,9 @@
       "category": "Health & Livability",
       "unit": "per woman",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/fertility_rate.json"
     },
     {
@@ -374,6 +506,9 @@
       "category": "Health & Livability",
       "unit": "per 1,000",
       "year": "2022",
+      "source": "IBGE Censo Demogr\u00e1fico 2022",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022",
       "endpoint": "/v1/brazil/adolescent_fertility.json"
     },
     {
@@ -382,6 +517,9 @@
       "category": "Geography",
       "unit": "km\u00b2",
       "year": "2022",
+      "source": "IBGE malhas territoriais (microrregi\u00f5es)",
+      "license": "IBGE open data (CC BY 4.0)",
+      "source_url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais.html",
       "endpoint": "/v1/brazil/area_km2.json"
     }
   ]

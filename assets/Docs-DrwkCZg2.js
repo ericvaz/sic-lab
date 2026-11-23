@@ -1,4 +1,4 @@
-import{r as d,j as e}from"./index-D8Hhh5RX.js";const c="https://geo-data.io/v1",o={curl:`curl ${c}/india/literacy_rate.json`,JavaScript:`const res = await fetch(
+import{r as d,j as e}from"./index-DwC3-m6y.js";const c="https://geo-data.io/v1",o={curl:`curl ${c}/india/literacy_rate.json`,JavaScript:`const res = await fetch(
   "${c}/india/literacy_rate.json"
 );
 const { data } = await res.json();

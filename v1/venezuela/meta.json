@@ -22,6 +22,9 @@
       "category": "Segments",
       "unit": "6 types",
       "year": "2011",
+      "source": "SIC Lab analysis, Spatial Intelligence Collective, built from the sources above",
+      "license": "CC BY 4.0",
+      "source_url": "https://lab.spatialintelligence.network/",
       "endpoint": "/v1/venezuela/segment.json"
     },
     {
@@ -30,6 +33,9 @@
       "category": "Population",
       "unit": "people",
       "year": "2011",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/population.json"
     },
     {
@@ -38,6 +44,9 @@
       "category": "Population",
       "unit": "per km\u00b2",
       "year": "2011",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/density.json"
     },
     {
@@ -46,6 +55,9 @@
       "category": "Demographics",
       "unit": "F / 1000 M",
       "year": "2011",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/sex_ratio.json"
     },
     {
@@ -54,6 +66,9 @@
       "category": "Demographics",
       "unit": "%",
       "year": "2011",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/pct_female.json"
     },
     {
@@ -62,6 +77,9 @@
       "category": "Demographics",
       "unit": "%",
       "year": "2011",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/pct_children.json"
     },
     {
@@ -70,6 +88,9 @@
       "category": "Demographics",
       "unit": "%",
       "year": "2011",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/pct_youth.json"
     },
     {
@@ -78,6 +99,9 @@
       "category": "Demographics",
       "unit": "%",
       "year": "2011",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/pct_workingage.json"
     },
     {
@@ -86,6 +110,9 @@
       "category": "Demographics",
       "unit": "%",
       "year": "2011",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/pct_elderly.json"
     },
     {
@@ -94,6 +121,9 @@
       "category": "Living standards",
       "unit": "%",
       "year": "2020\u201324",
+      "source": "HeiGIT / OCHA risk-assessment inputs (WorldPop, OpenStreetMap)",
+      "license": "CC BY-SA",
+      "source_url": "https://data.humdata.org/dataset/venezuela---risk-assessment-indicators",
       "endpoint": "/v1/venezuela/pct_rural.json"
     },
     {
@@ -102,6 +132,9 @@
       "category": "Health & Livability",
       "unit": "per 100k",
       "year": "2020\u201324",
+      "source": "HeiGIT / OCHA risk-assessment inputs (WorldPop, OpenStreetMap)",
+      "license": "CC BY-SA",
+      "source_url": "https://data.humdata.org/dataset/venezuela---risk-assessment-indicators",
       "endpoint": "/v1/venezuela/hospitals_per_100k.json"
     },
     {
@@ -110,6 +143,9 @@
       "category": "Health & Livability",
       "unit": "%",
       "year": "2020\u201324",
+      "source": "HeiGIT / OCHA risk-assessment inputs (WorldPop, OpenStreetMap)",
+      "license": "CC BY-SA",
+      "source_url": "https://data.humdata.org/dataset/venezuela---risk-assessment-indicators",
       "endpoint": "/v1/venezuela/pct_hospital_access.json"
     },
     {
@@ -118,6 +154,9 @@
       "category": "Health & Livability",
       "unit": "%",
       "year": "2020\u201324",
+      "source": "HeiGIT / OCHA risk-assessment inputs (WorldPop, OpenStreetMap)",
+      "license": "CC BY-SA",
+      "source_url": "https://data.humdata.org/dataset/venezuela---risk-assessment-indicators",
       "endpoint": "/v1/venezuela/pct_health_access.json"
     },
     {
@@ -126,6 +165,9 @@
       "category": "Education",
       "unit": "%",
       "year": "2020\u201324",
+      "source": "HeiGIT / OCHA risk-assessment inputs (WorldPop, OpenStreetMap)",
+      "license": "CC BY-SA",
+      "source_url": "https://data.humdata.org/dataset/venezuela---risk-assessment-indicators",
       "endpoint": "/v1/venezuela/pct_school_access.json"
     },
     {
@@ -134,6 +176,9 @@
       "category": "Earthquake \u00b7 Jun 2026",
       "unit": "MMI",
       "year": "Jun 2026",
+      "source": "USGS ShakeMap, M7.5 Yumare earthquake (us6000t7zp)",
+      "license": "Public domain (U.S. Government)",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp",
       "endpoint": "/v1/venezuela/mmi.json"
     },
     {
@@ -142,6 +187,9 @@
       "category": "Earthquake \u00b7 Jun 2026",
       "unit": "%g",
       "year": "Jun 2026",
+      "source": "USGS ShakeMap, M7.5 Yumare earthquake (us6000t7zp)",
+      "license": "Public domain (U.S. Government)",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp",
       "endpoint": "/v1/venezuela/pga_g.json"
     },
     {
@@ -150,6 +198,9 @@
       "category": "Earthquake \u00b7 Jun 2026",
       "unit": "people",
       "year": "Jun 2026",
+      "source": "USGS ShakeMap, M7.5 Yumare earthquake (us6000t7zp)",
+      "license": "Public domain (U.S. Government)",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp",
       "endpoint": "/v1/venezuela/pop_strong_shaking.json"
     },
     {
@@ -158,6 +209,9 @@
       "category": "Earthquake \u00b7 Jun 2026",
       "unit": "km",
       "year": "Jun 2026",
+      "source": "USGS ShakeMap, M7.5 Yumare earthquake (us6000t7zp)",
+      "license": "Public domain (U.S. Government)",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp",
       "endpoint": "/v1/venezuela/dist_epicenter_km.json"
     },
     {
@@ -166,6 +220,9 @@
       "category": "Emergency & planning",
       "unit": "0\u2013100",
       "year": "derived",
+      "source": "SIC Lab analysis, Spatial Intelligence Collective, built from the sources above",
+      "license": "CC BY 4.0",
+      "source_url": "https://lab.spatialintelligence.network/",
       "endpoint": "/v1/venezuela/response_priority.json"
     },
     {
@@ -174,6 +231,9 @@
       "category": "Emergency & planning",
       "unit": "people",
       "year": "derived",
+      "source": "SIC Lab analysis, Spatial Intelligence Collective, built from the sources above",
+      "license": "CC BY 4.0",
+      "source_url": "https://lab.spatialintelligence.network/",
       "endpoint": "/v1/venezuela/underserved_exposed.json"
     },
     {
@@ -182,6 +242,9 @@
       "category": "Emergency & planning",
       "unit": "\u0394 MMI",
       "year": "derived",
+      "source": "SIC Lab analysis, Spatial Intelligence Collective, built from the sources above",
+      "license": "CC BY 4.0",
+      "source_url": "https://lab.spatialintelligence.network/",
       "endpoint": "/v1/venezuela/shaking_residual.json"
     },
     {
@@ -190,6 +253,9 @@
       "category": "Emergency & planning",
       "unit": "per 100",
       "year": "derived",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/dependency_ratio.json"
     },
     {
@@ -198,6 +264,9 @@
       "category": "Emergency & planning",
       "unit": "changesets",
       "year": "2011",
+      "source": "OpenStreetMap changesets API, \u00a9 OpenStreetMap contributors",
+      "license": "ODbL",
+      "source_url": "https://www.openstreetmap.org/copyright",
       "endpoint": "/v1/venezuela/osm_activity_quake.json"
     },
     {
@@ -206,6 +275,9 @@
       "category": "Geography",
       "unit": "km\u00b2",
       "year": "2011",
+      "source": "UN OCHA COD-AB / COD-PS via HDX (INE 2011 census)",
+      "license": "CC BY-IGO 3.0",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-ven",
       "endpoint": "/v1/venezuela/area_km2.json"
     }
   ]
